@@ -133,6 +133,9 @@ input {
   transform: translateY(-0.75rem);
   box-shadow: 0 10px 15px rgba(0,0,0,1);
 }
+  .listing__card:hover .listing__card__img-container {
+    background: #888;
+  }
   .listing__card:hover .listing__card__img {
     filter: grayscale(0);
   }
